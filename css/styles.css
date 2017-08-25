@@ -1,0 +1,59 @@
+body{
+    /*background-color: black;*/
+}
+
+/* INICIO DOS ESTILOS HEADER */
+header{
+    background-color: rgba(0, 51, 102, 0.8);
+    /*z-index: 900;*/
+}
+
+.header-linha-menu{
+    height: 50px;
+}
+
+.header-logo img{
+    margin-top: 10px;
+    height: 30px;
+    width: 90px;
+}
+
+.header-links{
+    height: 50px;
+    display: flex;
+    padding-top: 13px;
+}
+
+.header-links a{
+    font-size: 15px;
+    font-weight: 200;
+    float: right;
+    flex-grow: 1;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.header-links a:hover{
+    color: rgba(255, 255, 255, 0.9);
+}
+ /*FIM DOS ESTILOS DO HEADER */
+
+
+
+ /* INICIO DOS ESTILOS DO BODY */
+.body-banner{
+    height: 700px;
+    background-image: url(../www/images/banner-business.jpg);
+    background-size: cover;
+    /*z-index: -1;*/
+}
+
+.body-secondary-banner-images{
+    padding: 0 0;
+    /*height: 150px;*/
+}
+
+.body-secondary-banner img{
+    width: 100%;
+    /*height: 150px;*/
+}
