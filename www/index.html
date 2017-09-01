@@ -6,13 +6,27 @@
         <title>Mauá Jr.</title>
         <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/menu-hamburguer.css">
         <link rel="stylesheet" href="../css/styles.css">
     </head>
     <body>
         <header>
             <div class="container">
                 <nav>
-                    <div class="row header-linha-menu">
+                    <div class="col-sm-6 header-logo">
+                        <a href="#"><img src="images/logo-font-mauajr.png" alt="logo maua jr"></a>
+                    </div>
+
+                    <div class="topnav" id="myTopnav">
+                        <a href="#home">Home</a>
+                        <a href="#news">News</a>
+                        <a href="#contact">Contact</a>
+                        <a href="#about">About</a>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                    </div>
+
+
+                    <!-- <div class="row header-linha-menu">
                         <div class="col-sm-6 header-logo">
                             <a href="#"><img src="images/logo-font-mauajr.png" alt="logo maua jr"></a>
                         </div>
@@ -25,7 +39,7 @@
                             <a href="#">Contato</a>
                             <a href="#">Blog</a>
                         </div>
-                    </div>
+                    </div> -->
                 </nav>
             </div>
         </header>
@@ -162,5 +176,17 @@
         <footer>
 
         </footer>
+
+        <script type="text/javascript">
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+        </script>
     </body>
 </html>
