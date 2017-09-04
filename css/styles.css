@@ -1,5 +1,8 @@
 body{
     /*background-color: black;*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #f9f9f9;
 }
 
 /* INICIO DOS ESTILOS HEADER */
@@ -8,35 +11,15 @@ header{
     /*z-index: 900;*/
 }
 
-.header-linha-menu{
-    height: 50px;
+header .container{
+    padding: 0;
 }
 
 .header-logo img{
-    margin-top: 10px;
+    margin-top: 12px;
     height: 30px;
     width: 90px;
-}
-
-.header-links{
-    height: 50px;
-    display: flex;
-    padding-top: 13px;
-}
-
-.header-links a{
-    font-size: 15px;
-    font-weight: 200;
-    float: right;
-    flex-grow: 1;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 1);
-}
-
-.header-links a:hover{
-    color: rgba(255, 255, 255, 0.9);
-}
- /*FIM DOS ESTILOS DO HEADER */
+} /*FIM DOS ESTILOS DO HEADER */
 
 
 
@@ -56,4 +39,32 @@ header{
 .body-secondary-banner img{
     width: 100%;
     /*height: 150px;*/
+}
+
+.section-quem-somos{
+    padding-bottom: 35px;
+}
+
+.titulo-quem-somos{
+    padding-bottom: 50px;
+}
+
+.titulo-quem-somos h1{
+    margin: 0;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+.section-servicos{
+    background-color: #f4f4f4;
+}
+
+.section-servicos .row{
+    padding-bottom: 50px;
+}
+
+.titulo-servicos h1{
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 40px;
 }
