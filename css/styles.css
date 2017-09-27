@@ -1,4 +1,4 @@
-body{
+body {
     /*background-color: black;*/
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -6,83 +6,84 @@ body{
 }
 
 /* INICIO DOS ESTILOS HEADER */
-header{
+
+header {
     background-color: rgba(0, 51, 102, 0.8);
     /*z-index: 900;*/
 }
 
-header .container{
+header .container {
     padding: 0;
 }
 
-.header-logo img{
+.header-logo img {
     margin-top: 12px;
     height: 30px;
     width: 90px;
-} /*FIM DOS ESTILOS DO HEADER */
+}
 
+/*FIM DOS ESTILOS DO HEADER */
 
+/* INICIO DOS ESTILOS DO BODY */
 
- /* INICIO DOS ESTILOS DO BODY */
-.body-banner{
+.body-banner {
     height: 700px;
     background-image: url(../www/images/banner-business.jpg);
     background-size: cover;
     /*z-index: -1;*/
 }
 
-.body-secondary-banner-images{
+.body-secondary-banner-images {
     padding: 0 0;
     /*height: 150px;*/
 }
 
-.body-secondary-banner img{
+.body-secondary-banner img {
     width: 100%;
     /*height: 150px;*/
 }
 
-.section-quem-somos{
+.section-quem-somos {
     padding-bottom: 35px;
 }
 
-.titulo-quem-somos{
+.titulo-quem-somos {
     padding-bottom: 50px;
 }
 
-.titulo-quem-somos h1{
+.titulo-quem-somos h1 {
     margin: 0;
     padding-top: 35px;
     padding-bottom: 25px;
 }
 
-.section-servicos{
+.section-servicos {
     background-color: #f4f4f4;
 }
 
-.section-servicos .row{
+.section-servicos .row {
     padding-bottom: 50px;
 }
 
-.titulo-servicos h1{
+.titulo-servicos h1 {
     margin: 0;
     padding-top: 30px;
     padding-bottom: 40px;
 }
 
-.card-servicos{
+.card-servicos {
     padding: 50px 0;
-    /*border: 1px solid black;*/
     border-radius: 5px;
     background-color: rgba(252, 252, 252, 1);
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
 }
 
-.card-servicos:hover{
-    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+.card-servicos:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 
-.card-servicos h3{
+.card-servicos h3 {
     font-size: 20px;
     font-weight: 500;
 }
