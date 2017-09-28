@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/menu-hamburguer.css">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/contato.css">
 </head>
 
 <body>
@@ -56,7 +57,7 @@
     </section>
 
     <!-- SECTION QUEM SOMOS -->
-    <section class="section-quem-somos">
+    <section class="section-quem-somos" id="quem-somos">
         <div class="container">
             <!-- PRIMEIRA PARTE DO QUEM SOMOS -->
             <div class="col-sm-12 text-center titulo-quem-somos">
@@ -91,7 +92,7 @@
     </section>
 
     <!-- SECTION SERVIÇOS -->
-    <section class="section-servicos">
+    <section class="section-servicos" id="servicos">
         <div class="container">
 
             <!-- TITULO SERVIÇOS -->
@@ -107,7 +108,7 @@
                         <i class="fa fa-cube fa-4x" aria-hidden="true"></i>
                         <h3>Administração</h3>
                         <p>Lorem Ipsum is simply dummy text lorem Ipsum is simply dummy text</p>
-                        <!-- <button class="btn btn-info">Saiba Mais</button> -->
+                        <!-- <button class="btn btn-info"><a href="teste.html">Saiba Mais</a></button> -->
                     </div>
                 </div>
 
@@ -180,20 +181,70 @@
     </section>
 
 
+    <!-- SECTION CONTATO -->
+    <!-- <section class="contato-background" id="contato">
+        <div class="div-form">
+            <form>
+                <h2>CONTATO</h2>
+                <p>Entre em contato para mais informações</p>
+                <div>
+                    <input placeholder="Nome" class="input-name">
+                </div>
+
+                <div>
+                    <input placeholder="Digite o seu e-mail">
+                </div>
+
+                <div>
+                    <input placeholder="Assunto a ser tratado">
+                </div>
+
+                <div>
+                    <textarea name="message" rows="8" cols="63" placeholder="Digite a sua mensagem"></textarea>
+                </div>
+
+                <div>
+                    <button type="button" name="button">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section> -->
+
+    <section class="section-contato" id="contato">
+        <div class="container">
+            <form class="div-formulario">
+                <h2>CONTATO</h2>
+                <p>Entre em contato para mais informações</p>
+
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Nome">
+                </div>
+
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="E-mail">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Assunto">
+                </div>
+
+                <div class="form-group">
+                    <textarea class="form-control" rows="3" placeholder="Digite a sua mensagem"></textarea>
+                </div>
+
+                <a class="btn btn-primary" href="#" role="button">Enviar</a>
+            </form>
+        </div>
+    </section>
+
+
     <footer>
 
     </footer>
 
-    <script type="text/javascript">
-        function abrirMenu() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../js/menu-hamburguer.js"></script>
+    <script src="../js/smooth-scroll.js"></script>
 </body>
 
 </html>
