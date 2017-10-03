@@ -1,0 +1,109 @@
+body {
+    /*background-color: black;*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    /*background-color: black;*/
+}
+
+/* INICIO DOS ESTILOS HEADER */
+
+header {
+    background-color: rgba(0, 51, 102, 0.8);
+    /*z-index: 900;*/
+}
+
+header .container {
+    padding: 0;
+}
+
+.header-logo img {
+    margin-top: 12px;
+    height: 30px;
+    width: 90px;
+}
+
+/*FIM DOS ESTILOS DO HEADER */
+
+/* INICIO DOS ESTILOS DO BODY */
+
+.section-banner .container{
+    display: flex;
+    padding-top: 5em;
+}
+
+.section-banner{
+    background-image: url(../www/images/coding.jpg);
+    background-size: cover;
+    height: 680px;
+}
+
+.card-banner{
+    height: 500px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 30px rgba(48, 48, 48, 1);
+    flex-grow: 1;
+}
+
+#card-banner-esquerda{
+    margin-right: 150px;
+}
+
+/*.section-titulo {
+    height: 700px;
+    background-image: url(../www/images/pic-code.png);
+    background-size: cover;
+    font-size: 45px;
+    letter-spacing: 3px;
+    line-height: 75px;
+    display: block;
+    height: 500px;*/
+    /*margin-top: 300px;*/
+    /*z-index: -1;*/
+/*}
+
+.div-texto {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.slider-p {
+    margin: -10px 0 -10px 0;
+    padding-top: 40px;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+#progress{
+    border-radius: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bar{
+    border-radius: 10px;
+    width: 1%;
+    height: 2px;
+    opacity: 0.85;
+    background-color: white;
+}*/
