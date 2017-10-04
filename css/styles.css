@@ -109,9 +109,10 @@ form{
     text-align: center;
     margin: 0 350px;
     box-sizing: border-box;
-    background: rgba(129, 142, 173, 0.16);
+    background: #f4f4f4;
     border-radius: 10px;
     padding: 25px 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 input{
