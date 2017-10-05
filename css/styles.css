@@ -33,6 +33,20 @@ header .container {
     /*z-index: -1;*/
 }
 
+.text-banner{
+    height: 700px;
+}
+.text-banner h1{
+    color: white;
+    margin: 50px;
+    text-align: left;
+    font-size: 55px;
+    background: darkgray;
+    border-radius: 13px;
+    padding: 100px 50px 100px 50px;
+    float: inherit;
+}
+
 .body-secondary-banner-images {
     padding: 0 0;
     /*height: 150px;*/
